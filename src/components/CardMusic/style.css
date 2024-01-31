@@ -1,0 +1,27 @@
+.container-card-music {
+    
+}
+
+.container-card-music > img {
+  width: 260px;
+  height: 260px;
+}
+
+.container-card-music > h2 {
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-card-music > p {
+  color: #ccc3c3;
+  text-align: justify;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
