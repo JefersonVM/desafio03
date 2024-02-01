@@ -5,6 +5,7 @@ import { useState } from "react";
 
 const Main = () => {
   const [music, setMusic] = useState([...musics]);
+
   return (
     <div className="container-main">
       <h1>The best play list</h1>

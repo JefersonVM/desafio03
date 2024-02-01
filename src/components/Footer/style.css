@@ -10,7 +10,28 @@
 }
 
 .title-current-music {
-    position: absolute;
-    left: 0;
-    margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  left: 0;
+  margin-left: 32px;
+}
+
+.title-current-music > h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title-current-music > h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

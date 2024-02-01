@@ -1,5 +1,8 @@
 .container-card-music {
-    
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 260px;
 }
 
 .container-card-music > img {

@@ -1,2 +1,10 @@
 .container-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-buttons {
+  display: flex;
+  gap: 45px;
 }
