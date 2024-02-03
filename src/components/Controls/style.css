@@ -8,3 +8,11 @@
   display: flex;
   gap: 45px;
 }
+
+.stop-play{
+  width: 64px;
+height: 64px;
+flex-shrink: 0;
+}
+
+

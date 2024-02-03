@@ -1,6 +1,6 @@
 .container-footer {
   width: 100vw;
-  height: 132px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,4 +34,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.container-controls-progress-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,0 +1,12 @@
+
+
+.container-progress-bar input {
+  width: 700px;
+  height: 4px;
+  background: #d3d3d3;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}

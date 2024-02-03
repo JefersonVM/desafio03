@@ -1,18 +1,33 @@
 import CardMusic from "../CardMusic";
 import "./style.css";
-import { musics } from "../../musics";
-import { useState } from "react";
 
-const Main = () => {
-  const [music, setMusic] = useState([...musics]);
-
+const Main = ({
+  music,
+  setMusic,
+  isPlaying,
+  setIsPlaying,
+  currentMusic,
+  setCurrentMusic,
+  musicRef,
+  handlePlayStop
+}) => {
   return (
     <div className="container-main">
       <h1>The best play list</h1>
 
       <div className="container-cards ">
         {music.map((music) => (
-          <CardMusic key={music.id} music={music} setMusic={setMusic} />
+          <CardMusic
+            key={music.id}
+            music={music}
+            setMusic={setMusic}
+            isPlaying={isPlaying}
+            setIsPlaying={setIsPlaying}
+            currentMusic={currentMusic}
+            setCurrentMusic={setCurrentMusic}
+            musicRef={musicRef}
+            handlePlayStop={handlePlayStop}
+          />
         ))}
       </div>
     </div>
